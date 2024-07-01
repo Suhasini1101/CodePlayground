@@ -1,0 +1,60 @@
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .theme-toggle.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .theme-toggle.light {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .light-mode {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .dark-mode header,
+  .dark-mode h2,
+  .dark-mode input[type="text"] {
+    color: #fff;
+  }
+  
+  .light-mode header h1 {
+    color: #000; /* Change header heading color in light mode */
+    font-weight: bold; /* Make font bold in light mode */
+  }
+  
+  .light-mode h1 {
+    color: #000; /* Change Code Playground heading color in light mode */
+  }
+  
+  .dark-mode header h1 {
+    color: #fff; /* Change header heading color in dark mode */
+  }
+  
+  .dark-mode header {
+    border-bottom: 2px solid #fff; /* Change header boundary color in dark mode */
+  }
+  

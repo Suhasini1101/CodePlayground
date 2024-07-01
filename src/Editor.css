@@ -1,0 +1,9 @@
+.editor {
+    border-right: 1px solid #ccc;
+  }
+  
+  .CodeMirror {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
