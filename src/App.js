@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Code Playground</h1>
+        <h1>Coding Playground</h1>
         
       </header>
       <Theme />
